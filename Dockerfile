@@ -10,4 +10,4 @@ COPY . .
 
 RUN npx playwright install --with-deps
 
-CMD ["npx", "playwright", "test", "tests/test-screenPlay", "tests/test-pom/login-sauce.spec.ts"]
+CMD ["npx", "playwright", "test", "tests/test-screenPlay/login.spec.ts"]
